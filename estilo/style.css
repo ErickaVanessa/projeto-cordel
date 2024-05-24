@@ -4,6 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 
 *{
@@ -15,7 +16,7 @@
 
 html,body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: #6B4945;
     
     
 }
@@ -29,14 +30,15 @@ body{
 
 
 header{
-    background-color: black;
+    background-color:#6B4945;
     text-align: center;
     color: white;
     
 }
 
 header h1{
-    font-family:'Passion One', Courier, monospace;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
     color: white;
     font-variant: small-caps;
     padding-top: 50px;
@@ -94,7 +96,7 @@ section p{
 }
 
 #flolha{
-    background-image:url(../imagens/background002.jpg) ;
+    background-image:url(../imagens/taylor-wright-RY9_lHxCHCs-unsplash.jpg) ;
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
@@ -102,7 +104,7 @@ section p{
 
 
 .imagem{
-    background-image: url(../imagens/background001.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-position: right center ;
     background-size: cover;
     text-shadow: 2px 1px black;
@@ -113,7 +115,7 @@ section p{
 
 
 footer{
-    background-color: black;
+    background-color:#6B4945;
     padding: 15px;
 }
 
